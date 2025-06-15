@@ -1,0 +1,132 @@
+{
+  "products": [
+    {
+      "name": "REDMI A5 (Jaisalmer Gold, 64 GB)",
+      "link": "/redmi-a5-jaisalmer-gold-64-gb/p/itm2b4357effaa74",
+      "image": {
+        "src": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/g/o/-original-imahb56zdk5ybj9r.jpeg?q=70",
+        "alt": "REDMI A5 (Jaisalmer Gold, 64 GB)"
+      },
+      "rating": {
+        "value": "4.3",
+        "ratings": "997",
+        "reviews": "49"
+      },
+      "features": [
+        "3 GB RAM | 64 GB ROM | Expandable Upto 2 TB",
+        "17.48 cm (6.88 inch) HD+ Display",
+        "32MP Rear Camera | 8MP Front Camera",
+        "5200 mAh Battery",
+        "T7250 Processor",
+        "1 Year Manufacturer Warranty for Handset and 6 Months Warranty for In the Box Accessories"
+      ],
+      "price": {
+        "current": "₹6,499",
+        "original": "₹8,999",
+        "discount": "27% off"
+      },
+      "offers": {
+        "delivery": "Free delivery",
+        "label": "Hot Deal",
+        "exchange_offer": "Upto ₹5,100 Off on Exchange"
+      },
+      "compare": true
+    },
+    {
+      "name": "Samsung Galaxy M14 (Smoky Teal, 128 GB)",
+      "link": "/samsung-galaxy-m14-smoky-teal-128-gb/p/itm1234567890",
+      "image": {
+        "src": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/x/n/galaxy-m14-5g-sm-m146b-samsung-original-imagzwssnfnzkpex.jpeg?q=70",
+        "alt": "Samsung Galaxy M14 (Smoky Teal, 128 GB)"
+      },
+      "rating": {
+        "value": "4.4",
+        "ratings": "1,250",
+        "reviews": "88"
+      },
+      "features": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.76 cm (6.6 inch) Full HD+ Display",
+        "50MP Rear Camera | 13MP Front Camera",
+        "6000 mAh Battery",
+        "Exynos 1330 Processor",
+        "1 Year Warranty for Handset and 6 Months for Accessories"
+      ],
+      "price": {
+        "current": "₹9,999",
+        "original": "₹13,499",
+        "discount": "25% off"
+      },
+      "offers": {
+        "delivery": "Free delivery",
+        "label": "Top Pick",
+        "exchange_offer": "Upto ₹6,500 Off on Exchange"
+      },
+      "compare": true
+    },
+    {
+      "name": "realme Narzo N53 (Feather Black, 128 GB)",
+      "link": "/realme-narzo-n53-feather-black-128-gb/p/itm78910abcd",
+      "image": {
+        "src": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/w/z/narzo-n53-rmx3761-realme-original-imagur5a9rcy5hf4.jpeg?q=70",
+        "alt": "realme Narzo N53 (Feather Black, 128 GB)"
+      },
+      "rating": {
+        "value": "4.2",
+        "ratings": "2,304",
+        "reviews": "178"
+      },
+      "features": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Unisoc T612 Processor",
+        "1 Year Warranty for Handset and 6 Months for Accessories"
+      ],
+      "price": {
+        "current": "₹8,999",
+        "original": "₹11,999",
+        "discount": "25% off"
+      },
+      "offers": {
+        "delivery": "Free delivery",
+        "label": "Budget Pick",
+        "exchange_offer": "Upto ₹4,000 Off on Exchange"
+      },
+      "compare": true
+    },
+    {
+      "name": "MOTOROLA g05 (Forest Green, 64 GB)",
+      "link": "/motorola-g05-forest-green-64-gb/p/itme5ed06a5943b9?pid=MOBH5F3Q2SGMAFHR&lid=LSTMOBH5F3Q2SGMAFHR6YHZS0",
+      "image": {
+        "src": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/a/b/-original-imah83eztbdcsknu.jpeg?q=70",
+        "alt": "MOTOROLA g05 (Forest Green, 64 GB)"
+      },
+      "rating": {
+        "value": "4.3",
+        "ratings": "31,562",
+        "reviews": "2,416"
+      },
+      "features": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+        "16.94 cm (6.67 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5200 mAh Battery",
+        "Helio G81 Processor",
+        "1 Year Warranty on Handset and 6 Months Warranty on Accessories"
+      ],
+      "price": {
+        "current": "₹6,999",
+        "original": "₹9,999",
+        "discount": "30% off"
+      },
+      "offers": {
+        "delivery": "Free delivery",
+        "label": "Hot Deal",
+        "exchange_offer": "Upto ₹5,650 Off on Exchange"
+      },
+      "compare": true
+    }
+  ]
+}
