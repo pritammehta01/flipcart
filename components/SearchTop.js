@@ -1,27 +1,12 @@
 import Link from "next/link";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 export default function SearchTop() {
   return (
     <div className="top w-full h-10 bg-white justify-center gap-12 items-center flex text-black text-sm font-semibold">
       <span className="flex items-center  group hover:text-[#2874f0] cursor-pointer relative">
         Electronics
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 18 18"
-          width="14"
-          height="14"
-          className="ml-1 transform transition-transform duration-300 group-hover:rotate-180"
-          color="grey"
-          fill="none"
-        >
-          <path
-            d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        <MdKeyboardArrowDown size={24}  className="ml-1 transform transition-transform duration-200 group-hover:rotate-180"/>
         <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300">
           Mobile
           <ul className="text-gray-500 m-2 text-xs gap-4 flex flex-col">
@@ -83,23 +68,7 @@ export default function SearchTop() {
       </span>
       <span className="flex items-center group hover:text-[#2874f0] cursor-pointer relative">
         TVs &amp; Appliances
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 18 18"
-          width="14"
-          height="14"
-          className="ml-1 transform transition-transform duration-300 group-hover:rotate-180"
-          color="grey"
-          fill="none"
-        >
-          <path
-            d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        <MdKeyboardArrowDown size={24}  className="ml-1 transform transition-transform duration-200 group-hover:rotate-180"/>
         <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300">
           Television
           <ul className="text-gray-500 m-2 text-xs gap-4 flex flex-col">
@@ -168,23 +137,7 @@ export default function SearchTop() {
       </span>
       <span className="flex items-center group hover:text-[#2874f0] cursor-pointer relative">
         Men
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 18 18"
-          width="14"
-          height="14"
-          className="ml-1 transform transition-transform duration-300 group-hover:rotate-180"
-          color="grey"
-          fill="none"
-        >
-          <path
-            d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        <MdKeyboardArrowDown size={24}  className="ml-1 transform transition-transform duration-200 group-hover:rotate-180"/>
         <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300">
           Footwear
           <ul className="text-gray-500 m-2 text-xs gap-4 flex flex-col">
@@ -245,23 +198,7 @@ export default function SearchTop() {
       </span>
       <span className="flex items-center group hover:text-[#2874f0] cursor-pointer relative">
         Women
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 18 18"
-          width="14"
-          height="14"
-          className="ml-1 transform transition-transform duration-300 group-hover:rotate-180"
-          color="grey"
-          fill="none"
-        >
-          <path
-            d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        <MdKeyboardArrowDown size={24}  className="ml-1 transform transition-transform duration-200 group-hover:rotate-180"/>
         <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300">
           Clothing
           <ul className="text-gray-500 m-2 text-xs gap-4 flex flex-col">
@@ -345,23 +282,7 @@ export default function SearchTop() {
       </span>
       <span className="flex items-center group hover:text-[#2874f0] cursor-pointer relative">
         Baby &amp; Kids
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 18 18"
-          width="14"
-          height="14"
-          className="ml-1 transform transition-transform duration-300 group-hover:rotate-180"
-          color="grey"
-          fill="none"
-        >
-          <path
-            d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        <MdKeyboardArrowDown size={24}  className="ml-1 transform transition-transform duration-200 group-hover:rotate-180"/>
         <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300">
           Kids Clothing
           <ul className="text-gray-500 m-2 text-xs gap-4 flex flex-col">
@@ -448,23 +369,7 @@ export default function SearchTop() {
       </span>
       <span className="flex items-center group hover:text-[#2874f0] cursor-pointer relative">
         Home &amp; Furniture
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 18 18"
-          width="14"
-          height="14"
-          className="ml-1 transform transition-transform duration-300 group-hover:rotate-180"
-          color="grey"
-          fill="none"
-        >
-          <path
-            d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        <MdKeyboardArrowDown size={24}  className="ml-1 transform transition-transform duration-200 group-hover:rotate-180"/>
         <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300">
           Kitchen, Cookware & Serveware
           <ul className="text-gray-500 m-2 text-xs gap-4 flex flex-col">
@@ -554,24 +459,8 @@ export default function SearchTop() {
       </span>
       <span className="flex items-center group cursor-pointer hover:text-[#2874f0] relative">
         Sports, Books &amp; More
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 18 18"
-          width="14"
-          height="14"
-          className="ml-1 transform transition-transform duration-300 group-hover:rotate-180"
-          color="gray"
-          fill="none"
-        >
-          <path
-            d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300">
+         <MdKeyboardArrowDown size={24}  className="ml-1 transform transition-transform duration-200 group-hover:rotate-180"/>
+        <div className="sub-menu absolute top-6 bg-white rounded-sm p-4 w-60 text-black hidden group-hover:block z-5 border border-gray-300 hover:block">
           Sports
           <ul className="text-gray-500 m-2 text-xs gap-4 flex flex-col">
             {/* Main Category */}

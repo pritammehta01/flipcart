@@ -10,3 +10,7 @@ body{
 .brand{
     border-bottom: 1px solid black;
 }
+.no-scrollbar {
+  -ms-overflow-style: none; /* for Internet Explorer and Edge */
+  scrollbar-width: none;    /* for Firefox */
+}

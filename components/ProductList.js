@@ -71,7 +71,7 @@ const ProductList = () => {
               </div>
 
               <div className="mt-2">
-                <div className="p-1 rounded-sm bg-green-100">
+                <div className="p-1 rounded-sm">
                   <div className="text-green-600 text-xs font-bold">
                     {product.offers.label}
                   </div>
