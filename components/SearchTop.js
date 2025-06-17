@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
-export default function SearchTop() {
+
+const SearchTop=() =>{
   return (
     <div className="top w-full h-10 bg-white justify-center gap-12 items-center flex text-black text-sm font-semibold">
       <span className="flex items-center  group hover:text-[#2874f0] cursor-pointer relative">
@@ -532,3 +533,4 @@ export default function SearchTop() {
     </div>
   );
 }
+export default SearchTop

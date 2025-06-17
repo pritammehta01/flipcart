@@ -3,7 +3,9 @@ import { useRef, useEffect } from "react";
 import Image from "next/image";
 import { GrFormPrevious, GrFormNext } from "react-icons/gr";
 
-export default function Carousel() {
+import React from 'react'
+
+const Carousel=()=> {
   const scrollRef = useRef(null);
 
   const images = [
@@ -83,3 +85,4 @@ export default function Carousel() {
     </div>
   );
 }
+export default Carousel

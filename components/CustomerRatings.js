@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-export default function CustomerRatings() {
+const CustomerRatings=()=> {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -204,3 +204,4 @@ export default function CustomerRatings() {
     </div>
   );
 }
+export default CustomerRatings

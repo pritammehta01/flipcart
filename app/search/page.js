@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import SearchTop from "./SearchTop";
-import CustomerRatings from "./CustomerRatings";
-import ProductList from "./ProductList";
+import SearchTop from "@/components/SearchTop";
+import CustomerRatings from "@/components/CustomerRatings";
+import ProductList from "@/components/ProductList";
 import {
   IoCard,
   IoHeart,
@@ -14,8 +14,8 @@ import {
 } from "react-icons/io5";
 import Link from "next/link";
 
-const SearchItem = () => {
-  return (
+export default function Search ()  {
+   return (
     <div>
       <nav className="bg-blue-500 flex w-full h-14  items-center justify-center pl-7 sticky top-0 z-10">
         <div className="logo mr-3">
@@ -53,7 +53,7 @@ const SearchItem = () => {
         <div className="items flex gap-10 text-white  text-lg">
           <div className="login w-30 bg-white h-[30px] text-blue-500 items-center justify-center group flex font-bold text-[15px] relative">
             <span>Login</span>
-            <div className="sub-menu absolute top-11 bg-white rounded-sm  w-52 text-black font-semibold hidden group-hover:block z-5 border border-gray-300">
+            <div className="sub-menu absolute top-[30px] bg-white rounded-sm  w-52 text-black font-semibold hidden group-hover:block z-5 border border-gray-300">
               <div className="flex justify-between text-sm cursor-pointer m-4">
                 <span className=" cursor-pointer">New Customer?</span>
                 <Link className="hover:underline text-blue-500" href="">
@@ -149,6 +149,4 @@ const SearchItem = () => {
       </div>
     </div>
   );
-};
-
-export default SearchItem;
+}

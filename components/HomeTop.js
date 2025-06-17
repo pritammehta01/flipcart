@@ -1,8 +1,10 @@
 import { MdKeyboardArrowDown } from "react-icons/md";
 import Image from "next/image";
-export default function HomeTop() {
+import React from 'react'
+
+const HomeTop = () => {
   return (
-    <div className=" h-32 bg-white justify-center pl-10 gap-8  items-center flex text-black font-semibold">
+    <div className="no-scrollbar h-34 lg:h-32 bg-white md:justify-center pl-10 gap-8  items-center flex text-black font-semibold overflow-auto">
       <div className="text-center w-20">
         <div className="w-16 h-16 mx-auto mb-2.5">
           <Image
@@ -116,3 +118,6 @@ export default function HomeTop() {
     </div>
   );
 }
+
+export default HomeTop
+
