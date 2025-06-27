@@ -47,7 +47,7 @@ const Navbar = () => {
          <IoPersonCircleOutline className="mx-2" size={22} />
           <span>Login</span>
           <MdKeyboardArrowDown size={20} className="ml-2 transform transition-transform duration-200 group-hover:rotate-180"/>
-          <div className="sub-menu absolute top-10 bg-white rounded-sm  w-52 text-black font-semibold hidden group-hover:block z-5 border border-gray-300">
+          <div className="sub-menu absolute top-9 bg-white rounded-sm  w-52 text-black font-semibold hidden group-hover:block z-5 border border-gray-300">
             <div className="flex justify-between text-sm cursor-pointer m-4">
               <span className=" cursor-pointer">New Customer?</span>
               <Link className="hover:underline text-blue-500" href="">

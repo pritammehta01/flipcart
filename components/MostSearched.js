@@ -157,13 +157,13 @@ import React from 'react'
 
 const MostSearched = () => {
  return (
-    <div className="flex flex-wrap gap-2 text-sm items-center">
+    <div className="flex flex-wrap gap-2  items-center">
         <h2 className="text-lg">Most searched for on Flipkart:</h2>
         {mostSearched.map(({ title, href }) => (
           <Link
             key={href}
             href=""
-            className="text-gray-600 hover:underline"
+            className="text-gray-600 hover:underline text-xs"
           >
             {title} &nbsp;|
           </Link>

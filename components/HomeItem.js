@@ -20,11 +20,11 @@ const HomeItem = () => {
       <div>
         <div className="bg-white p-2.5">
           <div className="text-2xl font-semibold">Beauty,Food ,Toys & more</div>
-          <div className="no-scrollbar flex  overflow-x-scroll flex-nowrap h-52 text-center">
+          <div className="no-scrollbar gap-22 flex  overflow-x-scroll flex-nowrap h-52 text-center">
             {list?.beauty?.map((food, index) => (
               <div
                 key={index}
-                className=" mr-8 my-2.5"
+                className="my-2.5"
               >
                 <div className="w-34 h-34 relative">
                   {food?.img && (
@@ -43,11 +43,11 @@ const HomeItem = () => {
         </div>
         <div className="bg-white p-2.5 my-3">
           <div className="text-2xl font-semibold">Sports, HelthCare & more</div>
-          <div className="no-scrollbar flex  overflow-x-scroll flex-nowrap h-52 text-center">
+          <div className="no-scrollbar gap-22  flex  overflow-x-scroll flex-nowrap h-52 text-center">
             {list?.Sports?.map((Sports, index) => (
               <div
                 key={index}
-                className=" mr-8 my-2.5"
+                className="my-2.5"
               >
                 <div className="w-34 h-34 relative">
                   {Sports?.img && (
@@ -66,11 +66,11 @@ const HomeItem = () => {
         </div>
         <div className="bg-white p-2.5 my-3">
           <div className="text-2xl font-semibold">Fashions Top Deals</div>
-          <div className="no-scrollbar flex  overflow-x-scroll flex-nowrap h-52 text-center">
+          <div className="no-scrollbar gap-22 flex  overflow-x-scroll flex-nowrap h-52 text-center">
             {list?.Fashions?.map((Fashions, index) => (
               <div
                 key={index}
-                className=" mr-8 my-2.5"
+                className="my-2.5"
               >
                 <div className="w-34 h-34 relative">
                   {Fashions?.img && (
